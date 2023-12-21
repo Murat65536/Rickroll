@@ -1,1 +1,1 @@
-A simple c++ program I made that rickrolls you!
+A simple C program I made that rickrolls you!
