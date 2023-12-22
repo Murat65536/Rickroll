@@ -473,6 +473,50 @@ int main()
     ip.ki.wVk = VK_RETURN;
     ip.ki.dwFlags = 0;
     SendInput(1, &ip, sizeof(INPUT));
+    
+    ip.ki.wVk = VK_RETURN;
+    ip.ki.dwFlags = KEYEVENTF_KEYUP;
+    SendInput(1, &ip, sizeof(INPUT));
+    
+    ip.ki.wVk = 'E';
+    ip.ki.dwFlags = 0;
+    SendInput(1, &ip, sizeof(INPUT));
+    
+    ip.ki.wVk = 'E';
+    ip.ki.dwFlags = KEYEVENTF_KEYUP;
+    SendInput(1, &ip, sizeof(INPUT));
+    
+    ip.ki.wVk = 'X';
+    ip.ki.dwFlags = 0;
+    SendInput(1, &ip, sizeof(INPUT));
+    
+    ip.ki.wVk = 'X';
+    ip.ki.dwFlags = KEYEVENTF_KEYUP;
+    SendInput(1, &ip, sizeof(INPUT));
+    
+    ip.ki.wVk = 'I';
+    ip.ki.dwFlags = 0;
+    SendInput(1, &ip, sizeof(INPUT));
+    
+    ip.ki.wVk = 'I';
+    ip.ki.dwFlags = KEYEVENTF_KEYUP;
+    SendInput(1, &ip, sizeof(INPUT));
+    
+    ip.ki.wVk = 'T';
+    ip.ki.dwFlags = 0;
+    SendInput(1, &ip, sizeof(INPUT));
+    
+    ip.ki.wVk = 'T';
+    ip.ki.dwFlags = KEYEVENTF_KEYUP;
+    SendInput(1, &ip, sizeof(INPUT));
+    
+    ip.ki.wVk = VK_RETURN;
+    ip.ki.dwFlags = 0;
+    SendInput(1, &ip, sizeof(INPUT));
+    
+    ip.ki.wVk = VK_RETURN;
+    ip.ki.dwFlags = KEYEVENTF_KEYUP;
+    SendInput(1, &ip, sizeof(INPUT));
 
     return 0;
 }
