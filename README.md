@@ -1,3 +1,3 @@
 <div align="center">
-<font size="100">Rickroll</font>
+<font size="1">Rickroll</font>
 </div>
