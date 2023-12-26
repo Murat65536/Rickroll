@@ -1,1 +1,1 @@
-<h1 style="font-size: 1em;">Rickroll</h1>
+<h1 style="font-size: 2em; text-align: center;">Rickroll</h1>
